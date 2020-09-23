@@ -14,9 +14,7 @@
 	<name>covid-tracker</name>
 	<description>Corona Virus Tracker Application - Spring Boot and Thyme Leaf</description>
 
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+	
 
 	<dependencies>
 		<dependency>
