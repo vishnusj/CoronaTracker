@@ -14,7 +14,9 @@
 	<name>covid-tracker</name>
 	<description>Corona Virus Tracker Application - Spring Boot and Thyme Leaf</description>
 
-	
+	<properties>
+		<java.version>11</java.version>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -53,8 +55,9 @@
 
 	<build>
 		<plugins>
-			
-			<plugin>
+		
+		
+		<plugin>
     	<groupId>org.apache.maven.plugins</groupId>
     	<artifactId>maven-compiler-plugin</artifactId>
     	<version>3.8.0</version>
